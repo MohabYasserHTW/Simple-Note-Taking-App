@@ -1,0 +1,52 @@
+.note-list_div{
+    padding: 1rem;
+}
+.note-list_div ul{
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.note-list_div li{
+    background-color: rgb(229, 225, 225);
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.note-list_div li:nth-child(even){
+    background-color: white;
+}
+.note-list_div li p{
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.note-list_div li textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+.input_edit_btn{
+    flex: 0 0 auto;
+    flex-basis: 100px;
+    
+    align-self:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.note-list_div li button{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+.note-list_div li svg{
+    width:clamp(16px,2.5vw,50px);
+    height:clamp(16px,2.5vw,50px);
+    cursor: pointer;
+    border: none;
+}

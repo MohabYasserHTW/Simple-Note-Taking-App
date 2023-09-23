@@ -1,0 +1,32 @@
+.note-input_div{
+    background-color: white;
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.note-input_div form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.note-input_div form textarea{
+    min-height: 100px;
+    padding: 1rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 15px;
+}
+.note-input_div form button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: rgb(109, 19, 194);
+    color: white;
+}
